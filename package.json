@@ -1,5 +1,5 @@
 {
-  "name": "WellBot",
+  "name": "slack-bot",
   "version": "1.0.0",
   "description": "A simple Slack bot that responds with 'pong' to DMs",
   "main": "index.js",
@@ -9,6 +9,8 @@
   },
   "dependencies": {
     "@slack/bolt": "^3.17.0",
+    "@aws-sdk/client-bedrock-runtime": "^3.470.0",
+    "node-fetch": "^2.7.0",
     "dotenv": "^16.3.1"
   },
   "devDependencies": {
